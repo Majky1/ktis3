@@ -21,6 +21,11 @@ namespace kris4
 
         static void Main(string[] args)
         {
+            Program scr = new Program();
+            scr.Input();
+            scr.Print();
+            Console.ReadKey();
+
         }
     }
 }
